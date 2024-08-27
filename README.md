@@ -1,2 +1,4 @@
 # Vision-transformer-on-CIFAR-100
 This is an experiment using the vision transformer as defined in the paper "An Image is worth 16x16 words" (https://arxiv.org/abs/2010.11929) for classification on the CIFAR-100 dataset that is commonly used for benchmarking such tasks. I experimented with hyperparameters while still keeping the original model the same as in the paper, as well as with changing the patching layer with a single trainable convlution that, although performed better, yielded higher computational cost, as well as recreating the Convolutional Vision transformer as per this paper (https://arxiv.org/abs/2103.15808) that implements the spacial recognition of convolutions with the processing and paralleliation of attention blocks, though that yielded the worst results. 
+
+Dataset used: https://www.kaggle.com/datasets/fedesoriano/cifar100
